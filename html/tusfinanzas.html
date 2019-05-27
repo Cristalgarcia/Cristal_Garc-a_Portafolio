@@ -18,9 +18,9 @@
 
 <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top font-weight-bold" style="background-color:#f3eb2c">
         <div class="container">
-            <a class="navbar-brand" href="#">Cristal</a>
+            <a class="navbar-item text-secondary" href="../html/index.html">Cristal</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#header">Home</a>
+                        <a class="nav-link" href="../html/index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about-me">Acerca de mí</a>
@@ -51,51 +51,406 @@
 
     <section id="tusfinazas">
         <div class="container mt-5">
-                <div class="row"> 
-                    <div class="container text-justify mt-5">
-                        <h1>Tus Finanzas</h1>
-                    </div>
-                    
-                    <div class=" container text-justify mt-5">
-                        <p>Objetivo del proyecto</p>
-                        
-                               <p> Uno de los bancos más importantes del país ha lanzado una nueva aplicación móvil al mercado para que sus usuarios puedan visualizar sus gastos mensuales y fomentar el ahorro. Luego de tener algunos meses en el mercado, el equipo detrás de este nuevo producto me eligió como líder de UX para que les ayude a definir la dirección y evolución del producto. El proyecto consiste en hacer un diagnóstico, evaluar el desempeño de la aplicación y proponer los cambios necesarios para optimizar el producto.</p>
-                            
-                            <p class="text-justify mt-5">
-                                Contexto del problema
-                            </p>
-                            <p class="text-justify mt-1">
-                                    Durante el primer sprint se tuvo la entrevista con la Product Manager del proyecto quien nos brindó el contexto de la aplicación. Se identificaron los siguientes aspectos: 
-                                </p>
-                                <p>Pains</p>
-                                <ul>
-                                        <li><i>La aplicación sólo está disponible para iOS.</i></li>
-                                        <li><i>Los usuarios no se registran en la aplicación.</i></li>
-                                        <li><i>Los usuarios ingresan sólo a la sección de gastos.</i></li>
-                                    </ul>
-                                <p>Gains</p>
-                                <ul>
-                                        <li><i>Las impresiones en Facebook Ads incrementaron de febrero a julio.</i></li>
-                                        <li><i>La aplicación se puede vincular con las tarjetas del banco. 
-                                            </i></li>
-                                        <li><i>La aplicación tiene como medida de seguridad el touch ID.</i></li>
-                                        <li><i>Facilita la visualización de salud financiera y metas de ahorro. 
-                                            </i></li> 
-                                            <li><i>El banco permite retirar el dinero ahorrado.
-                                                </i></li> 
-                                        </ul>
-                                  <p>Benchmark</p>      
-                            </div>            
+            <div class="row">
+                <div class="container text-justify mt-5">
+                    <h1>Tus Finanzas</h1>
+                    <img src="../tus_finanzas/finanzas.jpeg" class="img-fluid" alt="Responsive image">
+                </div>
 
-                                
-                            
-                    
+                <div class=" container text-justify mt-5">
+                    <p class="font-weight-bolder">Objetivo del proyecto</p>
+
+                    <p> Uno de los bancos más importantes del país ha lanzado una nueva aplicación móvil al mercado para
+                        que sus usuarios puedan visualizar sus gastos mensuales y fomentar el ahorro. Luego de tener
+                        algunos meses en el mercado, el equipo detrás de este nuevo producto me eligió como líder de UX
+                        para ayudarles a definir la dirección y la evolución del producto. El proyecto consiste en hacer
+                        un diagnóstico, evaluar el desempeño de la aplicación y proponer los cambios necesarios para
+                        optimizar el producto.</p>
+
+                    <p class="font-weight-bolder text-justify mt-5">
+                        Contexto del problema
+                    </p>
+                    <p class="text-justify mt-1">
+                        Durante el primer sprint se tuvo la entrevista con la Product Manager del proyecto quien nos
+                        brindó el contexto de la aplicación. Se identificaron los siguientes aspectos:
+                    </p>
+                    <p>Pains</p>
+                    <ul>
+                        <li><i>La aplicación sólo está disponible para iOS.</i></li>
+                        <li><i>Los usuarios no se registran en la aplicación.</i></li>
+                        <li><i>Los usuarios ingresan sólo a la sección de gastos.</i></li>
+                    </ul>
+                    <p>Gains</p>
+                    <ul>
+                        <li><i>Las impresiones en Facebook Ads incrementaron de febrero a julio.</i></li>
+                        <li><i>La aplicación se puede vincular con las tarjetas del banco.
+                            </i></li>
+                        <li><i>La aplicación tiene como medida de seguridad el touch ID.</i></li>
+                        <li><i>Facilita la visualización de salud financiera y metas de ahorro.
+                            </i></li>
+                        <li><i>El banco permite retirar el dinero ahorrado.
+                            </i></li>
+                    </ul>
+                    <img src="../tus_finanzas/fintech_app.PNG" class="img-fluid rounded mx-auto d-block"
+                    alt="Responsive image">
+
+                    <p class="font-weight-bolder text-justify mt-5">Benchmark</p>
+                    <p class="text-justify mt-1">
+                        Los principales competidores de la aplicación corresponden a la banca tradicional y digitalmente
+                        nativas. Para encontrar áreas de oportunidad se analizó a 10 bancos (nacionales,
+                        internacionales) para conocer su target, beneficios, proceso de registro, medidas de seguridad,
+                        contenido, en qué dispositivos están disponibles, gains y pains.
+                    </p>
+
+                    <p class="font-weight-bolder text-justify mt-5">Análisis de la data </p>
+                    <p class="text-justify mt-1">
+                        Durante los seis meses que la aplicación ha estado disponible se recabo data correspondiente a
+                        Ads y el uso del MVP. Con base en ellos realice el análisis de la información .
+                    </p>
+                    <p class="text-justify mt-3">Campaña en Facebook</p>
+                    <ul>
+                        <li><i>Las impresiones en Facebook presentan un incremento del 47% de febrero a julio.
+
+
+                            </i></li>
+
+                        <li><i>El promedio de impresiones de febrero a julio fue de 77M, sin embargo solo se obtuvo un
+                                promedio de 29M instalaciones y 3K registro, por lo que la campaña en Facebook no
+                                presenta una captación positiva de nuevos usuarios.
+                            </i></li>
+                    </ul>
+                    <p class="text-justify mt-3">Landing Page</p>
+
+                    <ul>
+
+                        <li><i>El 89% de los usuarios ingresan a la landing page a través de dispositivos Android y el
+                                4% ingresa por dispositivos iOS, por lo que es recomendable realizar un diseño para
+                                dispositivos Android.
+
+
+                            </i></li>
+
+                        <li><i>La tasa de rebote es mayor en dispositivos Android con un promedio de 77.19% mientras que
+                                en iOS fue del 70%.
+
+
+                            </i></li>
+
+                        <li><i>El usuario que ingresa a la aplicación en Androide, dura en promedio 1:43 minutos;
+                                mientras quien lo hace con iOS el tiempo es de 2:31 minutos. El comportamiento se debe a
+                                que la aplicación está diseñada para iOS haciendo que la navegación para otros
+                                dispositivos sea más complicada.
+
+                            </i></li>
+
+                    </ul>
+
+                    <p class="text-justify mt-3">Comportamiento en la aplicación</p>
+
+                    <ul>
+                        <li><i>Las sesiones de febrero a julio incrementaron 55% con un promedio de 200K sesiones al mes
+                                y 7K al día.
+
+
+                            </i></li>
+                        <li><i>El promedio de dispositivos activos de iPhones de febrero a julio es de 8.1K y el
+                                promedio de sesiones de 7.2K, es decir, 12.5% de los dispositivos no realizan inicio de
+                                sesión.
+
+
+                            </i></li>
+                    </ul>
+
+                    <p class="font-weight-bolder text-justify mt-5">Análisis Heurístico </p>
+                    <p class="text-justify mt-1">
+                        La interfaz de la aplicación Tus Finanzas fue sometida a un análisis de usabilidad y procesos
+                        con base en los principios de Jakob Nielsen. Los touchpoints que se tomaron en cuenta fueron
+                        pagina de carga, registro, inicio de sesión, home, gastos, ahorros, movimientos. Los principales
+                        pains fueron:
+                    </p>
+                    <ul>
+                        <li>Registro: La aplicación no indica cuál es su objetivo. Falta mensaje de que se está
+                            procesando la huella; el agregar una fotografía de perfil es confuso, no hay una
+                            consistencia en el idioma y en el diseño de los elementos (principalmente en los botones).
+                            El usuario no puede ver términos y condiciones.
+                        </li>
+                        <li>Inicio de sesión: Inconsistencia en el idioma, falta de elementos para el reconocimiento en
+                            sección.
+                        </li>
+                        <li>Home: No es posible cerrar sesión, faltan elementos para el reconocimiento en sección, el
+                            menú tiene una mala distribución de los elementos y formato al reducir espacio de la
+                            pantalla. Carece de sección de contacto y ayuda.
+                        </li>
+                        <li>Gastos: Falta información para saber en qué sección el usuario está ubicado. Inconsistencia
+                            en la paleta de color. No hay un desglose detallado de la información mostrada.
+                        </li>
+                        <li>Ahorro: La pantalla se queda en blanco y no informa al usuario que su acción está siendo
+                            procesada. Inconsistencia en el color. El botón de crear cuenta no está en la sección
+                            esperada y la instrucción es confusa. El formulario no tiene información de cómo llenarlo.
+                        </li>
+                        <li>
+                            Movimientos: El botón del menú se queda a la mitad de la pantalla al dar scroll. No presenta
+                            información de notificaciones para reconocer cargos. Falta información para saber en qué
+                            sección el usuario está ubicado.
+                        </li>
+                    </ul>
+
+                    <p class="font-weight-bolder text-justify mt-5">Testing del MVP </p>
+                    <p class="text-justify mt-1">
+                        El prototipo navegable fue testeado con 33 usuarios con base en las dos user personas que el
+                        cliente me compartió. En total fueron 15 mujeres y 18 hombres con una edad promedio años. El 75%
+                        contaba con Androide. El 72% estaba trabajando. Las principales observaciones del testeo fueron:
+                    </p>
+                    <p>Pains</p>
+                    <ul>
+                        <li><i>Confusión en poder seleccionar la foto de perfil y terminar la tarea.
+                            </i>
+                        </li>
+                        <li><i>No cuentan con la posibilidad de realizar pagos y transferencias
+                            </i>
+                        </li>
+                        <li><i>
+                                El botón de crear cuenta es confuso tanto en su ubicación, y objetivo del mismo.
+                            </i>
+                        </li>
+                        <li><i>
+                                El menú del perfil no tiene información de valor.
+                            </i>
+                        </li>
+                        <li><i>
+                                La tarjeta no se puede bloquear desde la aplicación.
+                            </i>
+
+                        </li>
+                        <li><i>
+                                Faltan predicciones.
+                            </i>
+                        </li>
+                        <li>
+                            <i>
+                                En la sección de ahorro no pueden conocer la cantidad bruta que llevan ahorrada.
+                            </i>
+                        </li>
+                        <li> <i>
+                                En la sección de ahorro no pueden conocer la cantidad bruta que llevan ahorrada.
+                            </i>
+                        </li>
+                        <li>
+                            <i>
+                                Buscan un método de contraseña más segura.
+                            </i>
+                        </li>
+                        <li>
+                            <i>
+                                El botón redondo del menú fijo no tiene una funcionalidad clara.
+                            </i>
+                        </li>
+                        <li>
+                            <i>
+                                En las secciones falta desglosar fechas.
+
+                            </i>
+                        </li>
+                        <li>
+                            <i>Los ahorros no se pueden editar manualmente.
+                            </i>
+                        </li>
+                        <li>
+                            <i>La app no tiene alerta de movimientos.
+                            </i>
+                        </li>
+                    </ul>
+
+                    <p>Gains</p>
+                    <ul>
+                        <li><i>Navegación intuitiva.
+
+                            </i>
+                        </li>
+                        <li><i>Registro sencillo.
+                            </i>
+                        </li>
+                        <li><i>
+                                Buen diseño.
+                            </i>
+                        </li>
+                        <li><i>
+                                La idea de poder generar una meta de ahorro automático es de gran valor.
+                            </i>
+                        </li>
+                        <li><i>
+                                La huella de seguridad es una buena opción.
+
+                            </i>
+                        </li>
+                        <li><i>
+                                Los pasos de sesión les da confianza y seguridad, sin embargo la perspectiva es con base
+                                en experiencia previa con el modelo de seguridad de los bancos.
+
+                            </i>
+                        </li>
 
                 </div>
+                <div class=" container text-justify">
+
+                    <p class="font-weight-bolder text-justify mt-5">Coustomer Journey Map </p>
+                    <p class="text-justify mt-1">
+                        Con la intención de conocer los sentimientos, las emociones y las experiencias de los usuarios
+                        entorno a los diferentes momentos de la aplicación se realizó un coustomer journey map. Los
+                        resultados arrojaron que los usuarios presentan más dificultad de navegación en el apartado de
+                        agregar una fotografía para el perfil y crear una cuenta de ahorro.
+                    </p>
+                    <img src="../tus_finanzas/coustomer_journey_map_app.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+
+
+                <div class=" container text-justify">
+
+                    <h4 class="font-weight-bolder text-justify mt-5">User persona </h4>
+                    <p class="text-justify mt-1">
+                        El user persona se estableció con base en los ejes de comportamiento y arquetipos.
+                    </p>
+                    <img src="../tus_finanzas/user persona_finanzas.PNG" class="img-fluid" alt="Responsive image">
+                </div>
+
+                <div class=" container text-justify">
+
+                    <h5 class="font-weight-bolder text-justify mt-5">Segundo sprint </h5>
+                    <p class="text-justify mt-1">
+                        Los objetivos de la segunda iteración se basan en generar una propuesta de rediseño con base a
+                        la información recabada en el primer sprint, el prototipado del rediseño, realizar pruebas de
+                        usabilidad y establecer los siguientes pasos.
+                    </p>
+                    <p class="font-weight-bolder text-justify mt-5">Reto de diseño </p>
+                    <p class="text-justify mt-1">
+                        La propuesta de rediseño consiste en mejorar el flujo de navegación, modificar el diseño de
+                        elementos visuales que no mantienen una consistencia y mostrar información desglosada de las
+                        diferentes secciones de la app.
+                    </p>
+                    <p class="font-weight-bolder font-weight-bolder text-justify mt-5">Mockups </p>
+                    <p class="text-justify mt-1">
+                        Los mockups de la aplicación pueden ser consultados <a
+                            href="https://docs.google.com/document/d/15fOJTfhHzOB4uaYPKWaqjzjbOLOoa4z8h0t6v7GxhaI/edit?usp=sharing">aquí</a>.
+                    </p>
+                    <h5 class="font-weight-bolder text-justify mt-5">Prototipado</h5>
+                    <p class="text-justify mt-1">El rediseño de la aplicación "Tus Finanzas" se realizó en Figma, mientras que el flujo de navegación se ejecutó en Marvel.</p>
+                    <p class="font-weight-bolder text-justify mt-1">Primer testing</p>
+                    <p class="text-justify mt-1">
+                        La aplicación se mostró a tres personas para evaluar el diseño de Home para identificar si el
+                        contenido era claro y si los iconos del navegador fijo eran entendibles. Como resultado, los
+                        usuarios indicaron que en la pantalla de inicio había mucha información, mostraron confusión ya
+                        que la información era interpretada como botones y como un navegador extra al existente, por tal
+                        motivo se eliminó el exceso de información. Asimismo, los iconos del navegador eran confusos por
+                        tal motivo se incluyó el título de cada uno para identificarlos con mayor rapidez las secciones.
+                        El gain fueron los iconos del menú de navegación por ser simples y de fácil lectura.
+                    </p>
+
+                    <img src="../tus_finanzas/home_primera iteracion.PNG" class="img-fluid rounded mx-auto d-block"
+                        alt="Responsive image">
+                    <p class="font-weight-bolder text-justify mt-1">Primera iteración</p>
+                    <p class="text-justify mt-1">
+                        El rediseño de la aplicación tuvo una primera iteración con base en los hallazgos antes
+                        mencionados. Consultar el prototipo en el <a
+                            href="https://www.loom.com/share/1704d1bcbe844b2786a926c8fc853c6d">link.</a>
+                    </p>
+
+                    <p class="font-weight-bolder text-justify mt-1">Segundo testing</p>
+                    <p class="text-justify mt-1">
+                        La aplicación fue testeada con cinco personas. Los usuarios destacaron que el diseño es de fácil
+                        navegación y sencillo; el inicio de sesión es ágil, los iconos son amigables, los detalles de
+                        los movimientos representan valor agregado, el contenido es de valor y lograron cumplir las
+                        tareas asignadas de forma rápida. Los pains corresponden a uso de tecnicismos, realizan clic en
+                        la tarjeta de home esperando mostrar información adicional, desean tener la oportunidad de
+                        consultar su estado de cuenta y hace falta un apartado que indique cuándo hay que pagar.
+                    </p>
+
+
+                    <h4 class="font-weight-bolder text-justify mt-1">Prototipo de alta fidelidad</h4>
+                    <p class="text-justify mt-1">
+                        El rediseño de la aplicación tuvo una primera iteración con base en los hallazgos antes
+                        mencionados.
+                    </p>
+                    <p class="font-weight-bolder text-justify mt-1">Flujo de la información</p>
+                    <img src="../tus_finanzas/flowmap.png" class="img-fluid rounded mx-auto d-block"
+                        alt="Responsive image">
+
+                    
+                    <p class="text-justify mt-1">
+
+                        El copy de la aplicación se cambio por transmitir un mensaje más claro “Ahorra desde ahora”. Al
+                        comenzar el registro se muestran tres slides con los objetivos principales de la aplicación en
+                        tono informativo. Las medidas de seguridad implementadas son dos, password y touch ID las cuales
+                        pueden ser elegidas acorde a las preferencias y diseño de su dispositivo.
+
+                    </p>
+                    <img src="../tus_finanzas/inicio.PNG" class="img-fluid rounded mx-auto d-block"
+                        alt="Responsive image">
+
+                    <p class="text-justify mt-1">
+
+                        El home de la aplicación muestra el saldo disponible en la tarjeta y el estatus de sus metas de
+                        ahorro. Por cada meta cumplida se le otorgará al usuario un incentivo de entretenimiento para
+                        continuar ahorrando.
+                    </p>
+                    <img src="../tus_finanzas/incentivo.PNG" class="img-fluid rounded mx-auto d-block"
+                        alt="Responsive image">
+
+                    <p class="text-justify mt-1">
+
+                        El usuario tiene la posibilidad de ver los detalles de sus movimientos como ubicación, fecha y
+                        tipo de operación.
+
+                    </p>
+                    <img src="../tus_finanzas/movimientos y gastos.PNG" class="img-fluid rounded mx-auto d-block"
+                        alt="Responsive image">
+
+                    <p class="text-justify mt-1">
+
+                        La sección de ahorro ubica de manera estratégica el botón de crear nueva meta. El formulario
+                        para crear una meta de ahorro tiene instrucciones en los imput para ir dirigiendo al usuario. El
+                        usuario tiene el control de sus metas en todo momento ya que puede conocer el estatus, tener la
+                        opción de transferir, editar y pausarla.
+
+                    </p>
+                    <img src="../tus_finanzas/ahorro.PNG" class="img-fluid rounded mx-auto d-block"
+                        alt="Responsive image">
+
+
+                    <p class="text-justify mt-1">
+
+                        Las secciones adicionales que se incluyeron fue un chat para tener una comunicación directa con
+                        servicio a cliente, una sección de balance de su salud financiera.
+                    </p>
+                    <ul>
+
+                        <li>Para consultar el prototipo final de alta fidelidad dar click <a
+                                href="https://marvelapp.com/b687j2e/screen/55362427">aquí.</a>
+                        </li>
+
+                        <li> Para visualizar el video del flujo final en loom dar click <a
+                                href="https://www.loom.com/share/028d1129a8b34a1fbc8a782b3f906876">aquí.</a>
+
+                        </li>
+
+                    </ul>
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+        </div>
         </div>
 
     </section>
-    
+
     <!--Footer
     <footer id="contact" style="background: black">
         <div class="container text-center mt-5">
@@ -162,6 +517,7 @@
         
     </script>-->
     <!--scroll-->
+    <script src="../html/index.html"></script>
 
 
 </body>
