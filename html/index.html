@@ -17,11 +17,11 @@
 </head>
 
 <body>
-    <!--navbar-->
+    <!--navbar--><div class="container">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top font-weight-bold" style="background-color:#f3eb2c">
-        <div class="container">
+        
             <a class="navbar-brand" href="#">Cristal</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <button class="navbar-toggler" type="button" data-toggle="dropdown" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -86,7 +86,7 @@
     </header>
 
     <!--about me-->
-    <section id="about-me">
+    <section id="about-me" class="about-me-section">
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-5">
@@ -127,49 +127,40 @@
     <!--Project-->
     <section id="projects">
         <div class="container">
-            <div class="row mt-5">
-                <div class="info-left">
+            
                     <h1 class="col-md-6">Proyectos
                     </h1>
-                    <div class="col-12 col-lg-12">
-                        <div id="product-wrapper" class="row">
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="card mt-3">
-                                    <img src="../assets/caratula_tusfinanzas.PNG" class="card-img-top" style="height: 20rem;"alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Tus finanzas</h5>
-                                        <p class="card-text">Rediseño de una aplicación financiera enfocada en visualizar gastos personales y fomentar el ahorro.</p>
-                                        <a href="../html/tusfinanzas.html" class="card-link">Ver más</a>
-                                    </div>
-                                </div>
+                    <div class="card-deck">
+                        <div class="card mt-3">
+                            <img src="../assets/caratula_tusfinanzas.PNG" style="height: 20rem" class="card-img-top"alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Tus finanzas</h5>
+                                <p class="card-text">Rediseño de una aplicación financiera enfocada en visualizar gastos personales y fomentar el ahorro.</p>
+                                <a href="../html/tusfinanzas.html" class="card-link">Ver más</a>
                             </div>
-
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="card mt-3">
-                                    <img src="../assets/caratula_dashboard.PNG" class="card-img-top" style="height: 20rem;" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Dashboard</h5>
-                                        <p class="card-text">Rediseño de un dashboard de venta de seguros. Proyecto enfocado en UI para visualización de data.</p>
-                                        <a href="../html/uidashboard.html" class="card-link">Ver más</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="card mt-3">
-                                    <img src="../almas dulces/Captura.PNG" class="card-img-top" style="height: 20rem;" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Almas Dulces</h5>
-                                        <p class="card-text">Diseño de una aplicación de ecommerce para el microemprendimiento “Almas Dulces”.</p>
-                                        <a href="" class="card-link">Ver más</a>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
+                        <div class="card mt-3">
+                            <img src="../assets/caratula_dashboard.PNG" style="height: 20rem" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Dashboard</h5>
+                                <p class="card-text">Rediseño de un dashboard de venta de seguros. Proyecto enfocado en UI para visualización de data.</p>
+                                <a href="../html/uidashboard.html" class="card-link">Ver más</a>
+                            </div>
+                        </div>
+                        <div class="card mt-3">
+                            <img src="../almas dulces/Captura.PNG" style="height: 20rem" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Almas Dulces</h5>
+                                <p class="card-text">Diseño de una aplicación de ecommerce para el microemprendimiento “Almas Dulces”.</p>
+                                <a href="" class="card-link">Ver más</a>
+                            </div>
+                        </div>
+                      </div>
 
-                    </div>
+                
+                   
 
-                </div>
+                
 
     </section>
 
